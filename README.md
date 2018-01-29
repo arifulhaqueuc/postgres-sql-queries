@@ -1,0 +1,1 @@
+# SQL-AWS-Redshift-Basics
