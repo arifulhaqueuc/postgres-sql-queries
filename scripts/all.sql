@@ -23,3 +23,6 @@ from pg_table_def
 where schemaname = 'public'
 ; 
 
+select nspname
+from pg_catalog.pg_namespace;
+
