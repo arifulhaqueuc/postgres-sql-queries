@@ -1,83 +1,87 @@
-### Update Center / Repository Update Info <img src="https://user-images.githubusercontent.com/20999114/35537819-a71d5fc4-0519-11e8-9d1f-489ca7ed6822.gif" height="30" width="40"> 
-Repository Just Published.
+SQL Redshift
+
+Update Center 
+====
+Last Update Info 
+<br />Time: Feb 04 4.00PM EST
+<br />Update Impact: Medium
 
 ```diff
 + This repo is under active development at this time,
-- so, frequent and random updates
-+ are very likely to happen. Followers are requested to update 
-+ their local repository every other day. Thank you. 
+- so, frequent and random updates are expected. 
++ Followers are requested to update their local repository as frequent as possible. Thank you. 
 ```
 
-### SQL-AWS-Redshift-Basics
-A collection of SQL query Scripts suitable for AWS redshift.
+:couple: Audience Insights 
+====
+#### Target Audience
+Database Developers who are interested to have a basic knowledge on how to run basic queries on SQL based AWS Redshift database.
+
+#### Purpose(s)
+This repository helps us understand how to use SQL keywords with Redshift databse queries. 
+
+#### What to expect
+After practicing all given queries at least couple of times would help the databse developers having a very solid understanding on how to write efficient queries on Redshift Database.
+
+#### Pre-requisites / Know Before You Go
+  - Basic knowledge of Postgres SQL Databse
+  - Good Knowledge of SQL keywords
+  - Good Knowledge on AWS Redshift architecture
 
 
-### Background
+:green_book: Project Insights
+===
+#### Repository Type
+This repo is a of individual SQL queries.
 
-This repository helps us understand usage of SQL's most important keywords and how to implement them to get better performance in complex queries. 
+#### Knowledge Base
+To be added later
 
 
-### Project Overview
+#### Birds Eye View 
 |  |  |
 | --- | --- |
-| Repo Type | Script Type |
+| Repo Type | Tutorial |
 | Current Status | Phase 1 |
-| Development Started | (end of) Jan 2018 |
-| Development Finished | TBD |
+| Development Timeline | Start Feb 2018 :: Finish Feb 2018 |
 | Application Type | Backend |
-| Database Used | Postgres |
 | License Type | MIT |
 
 
-### Project Description  
+#### Functional Description
+All the following files are avilable in the 'queries' directory.
+<br /> *Please note that this description section may not be fully updated as of today as I update this section once a week. You might find more files in the application directory. Each script has a concise in-script description of the program.*
 
-All the following files are avilable in the 'scripts' directory.
-
-<!--
 | File Name | Difficulty Devel | Description |
 | --- | --- | --- | 
-| hello_world.py | Beginner | This is a simple program to print Hello World using threading. A user defined function is created and the function is called when a thread has been initialized. |
-| add_number.py | Beginner | This program adds two numbers and prints the result with thread. |
-| for_loop.py | TBD | This program adds two numbers and prints the result with thread. |
-| add_number.py | TBD | This program creates five threads which in turn each will print "Hello World" on the screen. |
-| five_threads_prallel.py | TBD | This program creates five threads which executed in parallel, each of them will add two numbers and will print the results. |
-| acquired_lock.py | TBD | TBD |
-| square_cube.py | TBD | TBD |
-| square_cube_v2.py | TBD | TBD |
-| timer_example.py | TBD | TBD |
-| timer_with_loop.py | TBD | TBD |
--->
+| script_1 | Beginner | tbd  |
+| script_2 | Beginner | tbd  |
+| script_3 | Beginner | tbd  |
+| script_4 | Beginner | tbd  |
 
 
-### Technical Description / Primary Technologies or concepts Used
-  - Postgres
+### Technical Description
+Following primary Technologies/concepts were used
   - SQL
 
-
-### How to Run
+### How to run
   - clone the repo
-  - run individual script on your local database 
+  - go to the *queries* directory
+  - copy the code from a file
+  - past the code in tool that supports AWS redshift database
 
 
-### Pre-requisites / Know Before You Go
-  - Basic knowledge of SQL is required.
-  - Basic knowledge of Postgres is required.
-  
-
-### Application Functionalities
-Becasue this repo is not a project type, in fact it is a collection of several discrete scripts, so their functions are different from one another. Please take a look at the project description to know more about the functionalities of the programs. 
-  
-
-### Future Direction / Areas of Improvement
-Many more programs to come in each week until the above mentioned expected deadline. 
-
-
-### Support / Found a bug?
-Here are the options
+:computer: Support & Disclaimer
+===
+### Support
+Found a bug??
+<br />Here are the options
   - Please file an issue with detailed description.
   - If you know a possible solution, please create a new brnach, update the code and then submit pull request.
   - If you would  like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
-  
-  
-### General Disclaimer 
+
+Interester in Collaboration and Contribution??
+<br /> I am open to except any relevant collaboration suggestion from developers. Feel free to reach out to me in email.
+
+### General Disclaimer
 This is my personal repo and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
