@@ -1,2 +1,0 @@
--- write a query to find out the 10th highest salary 
--- in employee table
