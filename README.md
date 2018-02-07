@@ -1,16 +1,28 @@
-SQL Redshift
 
-Update Center 
+:zap: Birds Eye View 
 ====
-Last Update Info 
-<br />Time: Feb 04 4.00PM EST
+#### Last Update
+<br />Time: Feb 06 
 <br />Update Impact: Medium
 
 ```diff
 + This repo is under active development at this time,
 - so, frequent and random updates are expected. 
-+ Followers are requested to update their local repository as frequent as possible. Thank you. 
++ Followers are requested to update their 
++ local repository regularly. Thank you. 
 ```
+
+#### Project Overview
+|  |  |
+| --- | --- |
+| Repo Type | Tutorial |
+| Current Status | Phase 1 |
+| Development Timeline | Start Feb 2018 :: Finish Feb 2018 |
+| Application Type | Backend |
+| License Type | MIT |
+
+
+
 
 :couple: Audience Insights 
 ====
@@ -36,17 +48,6 @@ This repo is a of individual SQL queries.
 
 #### Knowledge Base
 To be added later
-
-
-#### Birds Eye View 
-|  |  |
-| --- | --- |
-| Repo Type | Tutorial |
-| Current Status | Phase 1 |
-| Development Timeline | Start Feb 2018 :: Finish Feb 2018 |
-| Application Type | Backend |
-| License Type | MIT |
-
 
 #### Functional Description
 All the following files are avilable in the 'queries' directory.
