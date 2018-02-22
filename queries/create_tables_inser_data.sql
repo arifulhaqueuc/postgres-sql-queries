@@ -1,4 +1,5 @@
--------All TABLES & DATA INSERTIONS-------------------
+
+
 -- president table
 drop table if exists president
 ;
@@ -13,9 +14,24 @@ create temp table president(
 )
 ;
 
+insert into president
+values
+('USA','Trump','male',85, '2017-05-20','2030-02-05'),
+('India','Modi','male',65, '2010-07-11','2017-09-04'),
+('Uganda','Alex','male',46, '2017-05-20','2030-03-31'),
+('Indonesia','Larry','male',49, '2010-07-11','2017-09-12'),
+('England','Trump','male',54, '2019-05-20','2030-03-24'),
+('Canada','Justin','male',23, '2000-07-11','2017-09-02'),
+('Bangladesh','Hasina','female',25, '1999-05-20','2030-02-01'),
+('Qatar','Zahed','male',35, '1998-07-11','2018-10-10'),
+('Germany','Merkel','female',50, '2000-03-21','2019-09-02')
+;
+
+
 -- population table
 drop table if exists population
 ;
+
 create temp table population(
   country_name varchar(30),
   pop_size int,
@@ -23,6 +39,22 @@ create temp table population(
 
 )
 ;
+
+insert into population
+values 
+('Belgium','11','50.10'),
+('Mexico','40','150.10'),
+('Brazil','10','1450.10'),
+('Bangladesh','11','50.10'),
+('Mexico','40','150.10'),
+('Brazil','10','1450.10'),
+('Belgium','11','50.10'),
+('Mexico','40','150.10'),
+('Brazil','10','1450.10')
+;
+
+
+
 -- city table
 drop table if exists city
 ;
@@ -31,19 +63,6 @@ create temp table city(
   city_name int,
   zip int,
   party varchar(50)
-)
-;
-
--- country table
-drop table if exists country
-;
-create temp table country(
-  country_name varchar(30),
-  gdp float,
-  continent varchar(40),
-  capital_city varchar(30),
-  independence_date timestamp,
-  phone_code smallint
 )
 ;
 
@@ -60,17 +79,6 @@ create temp table economy(
 )
 ;
 
--- sports table
-drop table if exists sports
-;
-create temp table sports(
-  country_name varchar(30),
-  sports_name varchar(30),
-  sports_type varchar(30),
-  olympic_medal smallint
-)
-;
-
 
 drop table if exists languages
 ;
@@ -82,7 +90,6 @@ create temp table languages(
 )
 ;
 
-------- DATA INSERTIONS -------------------
 insert into languages
 values 
 ('Bangladesh','Bangali',1234234),
@@ -105,29 +112,33 @@ values
 ('Japan','Japanese',1209090909)
 ;
 
-insert into president
-values
-('USA','Trump','male',85, '2017-05-20','2030-02-05'),
-('India','Modi','male',65, '2010-07-11','2017-09-04'),
-('Uganda','Alex','male',46, '2017-05-20','2030-03-31'),
-('Indonesia','Larry','male',49, '2010-07-11','2017-09-12'),
-('England','Trump','male',54, '2019-05-20','2030-03-24'),
-('Canada','Justin','male',23, '2000-07-11','2017-09-02'),
-('Bangladesh','Hasina','female',25, '1999-05-20','2030-02-01'),
-('Qatar','Zahed','male',35, '1998-07-11','2018-10-10'),
-('Germany','Merkel','female',50, '2000-03-21','2019-09-02')
+
+
+----
+----
+
+
+-- sports table
+drop table if exists sports
+;
+create temp table sports(
+  country_name varchar(30),
+  sports_name varchar(30),
+  sports_type varchar(30),
+  olympic_medal smallint
+)
 ;
 
-insert into population
-values 
-('Belgium','11','50.10'),
-('Mexico','40','150.10'),
-('Brazil','10','1450.10'),
-('Bangladesh','11','50.10'),
-('Mexico','40','150.10'),
-('Brazil','10','1450.10'),
-('Belgium','11','50.10'),
-('Mexico','40','150.10'),
-('Brazil','10','1450.10')
-
+-- country table
+drop table if exists country
 ;
+create temp table country(
+  country_name varchar(30),
+  gdp float,
+  continent varchar(40),
+  capital_city varchar(30),
+  independence_date timestamp,
+  phone_code smallint
+)
+;
+
