@@ -53,12 +53,43 @@ To be added later
 All the following files are avilable in the 'queries' directory.
 <br /> *Please note that this description section may not be fully updated as of today as I update this section once a week. You might find more files in the application directory. Each script has a concise in-script description of the program.*
 
-| File Name | Difficulty Devel | Description |
-| --- | --- | --- | 
-| script_1 | Beginner | tbd  |
-| script_2 | Beginner | tbd  |
-| script_3 | Beginner | tbd  |
-| script_4 | Beginner | tbd  |
+---
+
+| File Name | Description |
+| --- | --- | 
+
+---
+
+stl_error_message.sql
+analyze_table_1.sql
+show_running_queries.sql
+aws_create_tables.sql
+create_tables_inser_data.sql  
+create_temp_table.sql
+extract_function.sql      
+substring_regex.sql
+aws_database_queries2.sql
+date_syntax.sql
+find_gradation.sql        
+union.sql
+aws_database_queries.sql      
+dedup_count.sql               
+find_max_number.sql       
+unload_data_in_s3.sql
+aws_load_dataset.sql          
+deep_copy_1.sql               
+ilike_similar.sql         
+wb_export.sql
+aws_show_db_users.sql         
+deep_copy_2.sql               
+inner_join.sql            
+window_function.sql
+changing_dates_to_epochs.sql  
+deep_copy_3.sql               
+sample_data.sql
+copy_command.sql              
+exists.sql                    
+
 
 
 ### Technical Description
