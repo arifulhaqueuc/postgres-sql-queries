@@ -44,3 +44,36 @@ CASE
 END
 FROM contacts
 ;
+
+
+
+Without ELSE statement
+[option 1]
+SELECT contact_id,
+CASE website_id
+  WHEN 1 THEN 'TechOnTheNet.com'
+  WHEN 2 THEN 'CheckYourMath.com'
+END
+FROM contacts;
+
+
+
+[option 2]
+SELECT contact_id,
+CASE
+  WHEN website_id = 1 THEN 'TechOnTheNet.com'
+  WHEN website_id = 2 THEN 'CheckYourMath.com'
+END
+
+
+
+Comparing two Conditions
+-- Here is an example that demonstrates how to use the CASE statement to compare different conditions
+
+SELECT
+CASE
+  WHEN contact_id < 1000 THEN 'TechOnTheNet.com'
+  WHEN website_id = 2 THEN 'CheckYourMath.com'
+END
+FROM contacts
+;
