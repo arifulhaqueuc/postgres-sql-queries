@@ -13,6 +13,17 @@ CASE expression
 END
 
 
+Example
+SELECT contact_id,
+CASE website_id
+  WHEN 1 THEN 'TechOnTheNet.com'
+  WHEN 2 THEN 'CheckYourMath.com'
+  ELSE 'BigActivities.com'
+END
+FROM contacts
+;
+
+
 [option 2]
 CASE
 
@@ -23,3 +34,13 @@ CASE
    ELSE result
 
 END
+
+Example
+SELECT contact_id,
+CASE
+  WHEN website_id = 1 THEN 'TechOnTheNet.com'
+  WHEN website_id = 2 THEN 'CheckYourMath.com'
+  ELSE 'BigActivities.com'
+END
+FROM contacts
+;
