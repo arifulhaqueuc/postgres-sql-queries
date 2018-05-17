@@ -1,9 +1,7 @@
 
-:zap: Birds Eye View 
-====
-#### Last Update
-<br />Time: Feb 06 
-<br />Update Impact: Medium
+#### Run & Test The Queries
+http://rextester.com/l/postgresql_online_compiler
+
 
 ```diff
 + This repo is under active development at this time,
@@ -11,17 +9,6 @@
 + Followers are requested to update their 
 + local repository regularly. Thank you. 
 ```
-
-#### Project Overview
-|  |  |
-| --- | --- |
-| Repo Type | Tutorial |
-| Current Status | Phase 1 |
-| Development Timeline | Start Feb 2018 :: Finish Feb 2018 |
-| Application Type | Backend |
-| License Type | MIT |
-
-
 
 
 :couple: Audience Insights 
