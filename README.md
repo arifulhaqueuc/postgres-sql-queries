@@ -3,14 +3,6 @@
 http://rextester.com/l/postgresql_online_compiler
 
 
-```diff
-+ This repo is under active development at this time,
-- so, frequent and random updates are expected. 
-+ Followers are requested to update their 
-+ local repository regularly. Thank you. 
-```
-
-
 :couple: Audience Insights 
 ====
 #### Target Audience
