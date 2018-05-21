@@ -10,6 +10,22 @@ http://rextester.com/l/postgresql_online_compiler
 
 
 
+Create temp table from a given table
+```
+create temp table top_ten_salary as
+(
+select emp_salary
+from employee_table 
+--group by emp_salary
+order by emp_salary desc
+limit 10
+)
+;
+
+
+
+```
+
 Date Syntax
 ```
 start_time::timestamptz AT TIME ZONE 'America/New_York' 
