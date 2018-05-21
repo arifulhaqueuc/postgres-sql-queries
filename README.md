@@ -3,6 +3,35 @@
 http://rextester.com/l/postgresql_online_compiler
 
 
+Date Syntax
+```
+start_time::timestamptz AT TIME ZONE 'America/New_York' 
+  BETWEEN '2017-12-25' 
+  AND '2017-12-26'
+
+```
+
+
+
+Group By Syntax
+```
+SELECT 
+  year,
+  month,
+  COUNT(*) AS count
+
+
+FROM 
+  tutorial.aapl_historical_stock_price
+
+
+GROUP BY 
+  1, 2
+ 
+``` 
+ 
+
+
 :couple: Audience Insights 
 ====
 #### Target Audience
@@ -94,10 +123,3 @@ Interester in Collaboration and Contribution??
 This is my personal repo and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
 
 
-
-#### Query Practice Sources
-  - https://www.w3resource.com/sql-exercises/
-  
-  
-  
-  

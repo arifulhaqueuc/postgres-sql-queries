@@ -3,6 +3,7 @@
 -- president table
 drop table if exists president
 ;
+
 create temp table president(
   country_name varchar(10),
   president_name varchar(30),
