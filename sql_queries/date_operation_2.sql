@@ -9,7 +9,7 @@ select
 -- This returns:
 -- extract_test | date_part_test
 -- 1496275200 | 1496275200
-When actually selecting from a table the query might look like this:
+-- When actually selecting from a table the query might look like this:
 
 select 
   extract('epoch' from timestamp date_day_value_in_table) as extract_test,
