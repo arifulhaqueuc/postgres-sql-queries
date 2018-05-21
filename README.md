@@ -3,6 +3,13 @@
 http://rextester.com/l/postgresql_online_compiler
 
 
+#### Pre-requisites / Know Before You Go
+  - Basic knowledge of Postgres SQL Databse
+  - Good Knowledge of SQL keywords
+  - Good Knowledge on AWS Redshift architecture
+
+
+
 Date Syntax
 ```
 start_time::timestamptz AT TIME ZONE 'America/New_York' 
@@ -30,36 +37,24 @@ GROUP BY
  
 ``` 
  
+Join with Group by and Order By
+```
+
+SELECT 
+  teams.conference AS conference
+  , AVG(players.weight) AS average_weight
 
 
-:couple: Audience Insights 
-====
-#### Target Audience
-Database Developers who are interested to have a basic knowledge on how to run basic queries on SQL based AWS Redshift database.
+FROM benn.college_football_players players
+JOIN benn.college_football_teams teams
+ON teams.school_name = players.school_name
 
-#### Purpose(s)
-This repository helps us understand how to use SQL keywords with Redshift databse queries. 
-
-#### What to expect
-After practicing all given queries at least couple of times would help the databse developers having a very solid understanding on how to write efficient queries on Redshift Database.
-
-#### Pre-requisites / Know Before You Go
-  - Basic knowledge of Postgres SQL Databse
-  - Good Knowledge of SQL keywords
-  - Good Knowledge on AWS Redshift architecture
+GROUP BY teams.conference
+ORDER BY AVG(players.weight) DESC
 
 
-:green_book: Project Insights
-===
-#### Repository Type
-This repo is a of individual SQL queries.
+```
 
-#### Knowledge Base
-To be added later
-
-#### Functional Description
-All the following files are avilable in the 'queries' directory.
-<br /> *Please note that this description section may not be fully updated as of today as I update this section once a week. You might find more files in the application directory. Each script has a concise in-script description of the program.*
 
 
 File Name | Description
@@ -93,18 +88,6 @@ deep_copy_3.sql | xxx
 sample_data.sql | xxx
 copy_command.sql | xxx              
 exists.sql | xxx                   
-
-
-
-### Technical Description
-Following primary Technologies/concepts were used
-  - SQL
-
-### How to run
-  - clone the repo
-  - go to the *queries* directory
-  - copy the code from a file
-  - past the code in tool that supports AWS redshift database
 
 
 :computer: Support & Disclaimer
