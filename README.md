@@ -9,6 +9,18 @@ http://rextester.com/l/postgresql_online_compiler
   - Good Knowledge on AWS Redshift architecture
 
 
+Query clause order
+
+```
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+
+```
+
 
 Create temp table from a given table
 ```
