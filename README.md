@@ -134,3 +134,8 @@ Interester in Collaboration and Contribution??
 This is my personal repo and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
 
 
+
+References
+  - https://aws.amazon.com/documentation/redshift/
+
+
