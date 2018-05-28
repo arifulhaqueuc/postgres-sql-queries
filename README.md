@@ -1,11 +1,11 @@
 ### About The Repository
-The goal of this repository is to help us get familiarized with medium-to-advanced SQL queries suitable for a Postgres Database, and there is also a set of queries to execute on AWS RedSfift Database to monitor current errors and other admin query information. 
+The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database, and there is also a set of queries that we can execute on AWS RedSfift Database to monitor current errors and other admin-level  information. 
 
 
 #### Run & Test The Queries
 We can run and test all the queries using the following online tool. 
 <br />http://rextester.com/l/postgresql_online_compiler
-<br />**No need to install any dependencies on a local machine. Just copy any query from the collection and paste it in the workpad of this tool. **
+<br />*No need to install any dependency on a local machine. Just copy any query from the query collection and paste it in the workpad of this tool.*
 
 
 #### Pre-requisites / Know Before You Go
