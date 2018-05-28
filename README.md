@@ -140,5 +140,8 @@ This is my personal repo and not an official product of any company. If you woul
 
 #### References
   - https://aws.amazon.com/documentation/redshift/
+  - https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_commands.html
+  - https://docs.aws.amazon.com/redshift/latest/dg/welcome.html
+  - https://aws.amazon.com/documentation/redshift/
 
 
