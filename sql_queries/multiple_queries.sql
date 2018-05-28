@@ -73,11 +73,6 @@ create table sales(
 
 
 
--- Get definition for the sales table.
-SELECT *    
-FROM pg_table_def    
-WHERE tablename = 'sales';    
-
 -- Find total sales on a given calendar date.
 SELECT sum(qtysold) 
 FROM   sales, date 

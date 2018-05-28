@@ -13,7 +13,8 @@ from pg_namespace
 -- ???
 
 -- find the list of tables
-select distinct(tablename) 
+select 
+	distinct(tablename) 
 from pg_table_def 
 ; 
 
