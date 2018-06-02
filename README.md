@@ -10,10 +10,10 @@ We can run and test any query using the following online tool
 <br />*No need to install any dependency on a local machine. Just copy any query from the query collection and paste it in the workpad of this tool.*
 
 
+
 #### Pre-requisites / Know Before You Go
   - Basic knowledge of SQL Queries
   - Good Knowledge on AWS Redshift architecture
-
 
 
 :pen: Basic Syntax
@@ -122,7 +122,6 @@ exists.sql | xxx
 create_tables_inser_data.sql  | xxx
 inner_join.sql | xxx           
 changing_dates_to_epochs.sql  | xxx
-
 
 
 
