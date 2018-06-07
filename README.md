@@ -16,6 +16,15 @@ other admin-level  information.
 - References
 
 
+
+Knowldge-base
+===
+#### Important Concepts of AWS RedShift
+ - performance tuning, clustering, data allocation
+ - project RedShift costs and propose actions for cost optimizations
+ - Redshift concepts like DISTKEY, SORTKEY, COMPRESSION, VACUUM etc.
+
+
 #### Pre-requisites / Know Before You Go
   - Basic knowledge of SQL Queries
   - Good Knowledge on AWS Redshift architecture
