@@ -2,34 +2,149 @@
 ===
 The goal of this repository is to help us get familiarized with medium-to-advanced level 
 SQL queries suitable for a Postgres Database, and there is also a set of queries 
-that we can execute on AWS RedSfift Database to monitor current errors and 
+that we can execute on AWS RedShift Database to monitor current errors and 
 other admin-level  information. 
 
+
+#### Pre-requisites / Know Before You Go
+  - Good knowledge of SQL Queries
+  - Basic Knowledge on AWS Redshift
 
 
 #### List of Contents
 - Run & Test The Queries
-- Pre-requisites / Know Before You Go
+- Knowledge-base
 - Basic Syntax
 - Query Description
-- Support and Disclaimer
-- References
 
 
 
 :house: Knowledge-base
 ===
 
-#### Pre-requisites / Know Before You Go
-  - Basic knowledge of SQL Queries
-  - Good Knowledge on AWS Redshift architecture
-
 
 
 #### Important Concepts in SQL
  - What is the difference in *like* vs *ilike*
  - What is the difference in *union* and *union all*
+ - how to extract info from ```datetime```
  
+
+
+
+#### Basic Syntax
+
+Query clause order
+```
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+
+```
+
+
+Create a Temp Table
+```
+drop table if exists table_name
+;
+
+
+create temp table table_name
+(
+  id int,
+  name varchar(25),
+  dob Date
+
+)
+;
+
+```
+
+
+Create a temp table from a given table
+```
+create temp table top_ten_salary as
+(
+  select emp_salary
+  from employee_table 
+  order by emp_salary desc
+  limit 10
+)
+;
+
+```
+
+Date Syntax
+```
+start_time::timestamptz AT TIME ZONE 'America/New_York' 
+  BETWEEN '2017-12-25' 
+  AND '2017-12-26'
+
+```
+
+
+#### SQL Keywords
+Let's take a quick look at the common SQL keywords.
+
+```not```
+<br>
+This keyword is used in the following queries
+ - find the products that didnot catch fire
+ - find the parcels that didnot lose
+ 
+General Syntax
+```
+select
+ a
+ , b
+ , c
+ 
+from
+ table1
+
+where 
+ b not in
+  (
+    select 
+     m
+    from 
+     table2
+  )
+
+``` 
+ 
+Examples
+ - [not_had_fire.sql]() 
+
+
+
+
+```order by```
+<br>
+This keyword is used to rearrange data in a specific order. Such as
+ - show employee names in order of their age
+ - how many customer are there from each country
+
+
+```min``` function
+ - How to find lowest value in a column 
+ 
+
+Examples
+ - find the first order from the product table
+
+ 
+#### Measure performance in SQL query
+
+
+
+#### Date and Time operation in SQL
+Date and Time operation in SQL is very important. Many times, we need to extract a piece of info
+from a given long ```datetime``` format. 
+
 
 #### Important Concepts of AWS RedShift
  - performance tuning, clustering, data allocation
@@ -93,66 +208,13 @@ changing_dates_to_epochs.sql  | xxx
 
 #### Run & Test The Queries
 We can run and test any query using the following online tool
-<br />http://rextester.com/l/postgresql_online_compiler
-<br />*No need to install any dependency on a local machine. 
-Just copy any query from the query collection and paste it in the workpad of this tool.*
-
-
-
-:pen: Basic Syntax
-===
-
-Query clause order
-
 ```
-SELECT
-FROM
-WHERE
-GROUP BY
-HAVING
-ORDER BY
-
+http://rextester.com/l/postgresql_online_compiler
 ```
+No need to install any dependency on a local machine. Just copy any query from the 
+query collection and paste it in the workpad of this tool.
 
 
-Create a Temp Table
-```
-drop table if exists table_name
-;
-
-
-create temp table table_name
-(
-  id int,
-  name varchar(25),
-  dob Date
-
-)
-;
-
-```
-
-
-Create a temp table from a given table
-```
-create temp table top_ten_salary as
-(
-  select emp_salary
-  from employee_table 
-  order by emp_salary desc
-  limit 10
-)
-;
-
-```
-
-Date Syntax
-```
-start_time::timestamptz AT TIME ZONE 'America/New_York' 
-  BETWEEN '2017-12-25' 
-  AND '2017-12-26'
-
-```
 
 
 :computer: Support & Disclaimer
