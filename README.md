@@ -17,18 +17,24 @@ other admin-level  information.
 
 
 
-Knowldge-base
+:house: Knowledge-base
 ===
-#### Important Concepts of AWS RedShift
- - performance tuning, clustering, data allocation
- - project RedShift costs and propose actions for cost optimizations
- - Redshift concepts like DISTKEY, SORTKEY, COMPRESSION, VACUUM etc.
-
 
 #### Pre-requisites / Know Before You Go
   - Basic knowledge of SQL Queries
   - Good Knowledge on AWS Redshift architecture
 
+
+
+#### Important Concepts in SQL
+ - What is the difference in *like* vs *ilike*
+ - What is the difference in *union* and *union all*
+ 
+
+#### Important Concepts of AWS RedShift
+ - performance tuning, clustering, data allocation
+ - project RedShift costs and propose actions for cost optimizations
+ - Redshift concepts like DISTKEY, SORTKEY, COMPRESSION, VACUUM etc.
 
 
 :book: Query Description
