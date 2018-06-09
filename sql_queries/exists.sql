@@ -16,12 +16,13 @@ create temp table order_details
 select 
 	dateid 
 
-from date
+from order_details
 
 where exists (
 	select 1 
 	from sales
-	where date.dateid = sales.dateid
+	where order_details.dateid = sales.dateid
 )
-order by dateid;
+order by dateid
+;
 
