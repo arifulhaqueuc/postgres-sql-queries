@@ -146,10 +146,6 @@ Date and Time operation in SQL is very important. Many times, we need to extract
 from a given long ```datetime``` format. 
 
 
-#### Important Concepts of AWS RedShift
- - performance tuning, clustering, data allocation
- - project RedShift costs and propose actions for cost optimizations
- - Redshift concepts like DISTKEY, SORTKEY, COMPRESSION, VACUUM etc.
 
 
 :book: Query Description
