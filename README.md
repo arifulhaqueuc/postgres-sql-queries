@@ -1,17 +1,18 @@
-:pencil: About The Repository
-===
-The goal of this repository is to help us get familiarized with medium-to-advanced level 
-SQL queries suitable for a Postgres Database, and there is also a set of queries 
-that we can execute on AWS RedShift Database to monitor current errors and 
-other admin-level  information. 
+About The Repository
+===========
+Topic | Description
+--- | ---
+Goal | The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database, and there is also a set of queries that we can execute on AWS RedShift Database to monitor current errors and other admin-level  information. 
 
 
-#### Pre-requisites / Know Before You Go
+Pre-requisites / Know Before You Go
+==========
   - Good knowledge of SQL Queries
   - Basic Knowledge on AWS Redshift
 
 
-#### List of Contents
+List of Contents
+===========
 - Run & Test The Queries
 - Knowledge-base
 - Basic Syntax
@@ -19,17 +20,23 @@ other admin-level  information.
 
 
 
-:house: Knowledge-base
-===
-
-
+Knowledge-base
+==========
 
 #### Important Concepts in SQL
  - What is the difference in *like* vs *ilike*
  - What is the difference in *union* and *union all*
  - how to extract info from ```datetime```
  
+ 
 
+List of Query Contents
+===========
+- Basic Syntax Order
+- Create A Temp Table
+- Create a temp table from a given table
+- Date Syntax
+- SQL keywords
 
 
 #### Basic Syntax
@@ -136,40 +143,9 @@ This keyword is used to rearrange data in a specific order. Such as
 Examples
  - find the first order from the product table
 
- 
-#### Measure performance in SQL query
-
-
-
-#### Date and Time operation in SQL
-Date and Time operation in SQL is very important. Many times, we need to extract a piece of info
-from a given long ```datetime``` format. 
-
-
-
-
-:book: Query Description
-===
-
-AWS DB Admin Queries
-
-File Name | Description
---- | ---
-aws_create_tables.sql | xxx
-aws_show_running_queries.sql | xxx
-copy_command.sql | xxx              
-unload_data_in_s3.sql | xxx
-aws_load_dataset.sql | xxx          
-aws_database_queries2.sql | xxx
-aws_show_db_users.sql | xxx
-aws_database_queries.sql | xxx
-aws_stl_error_message.sql | xxx
-
-
-
 
 Query Syntax
-
+=========
 File Name | Description
 --- | ---
 wb_export.sql | sql query to export result in a csv file
@@ -183,7 +159,7 @@ join_groupby_orderby.sql | a table with join and group by and order by
 
 
 SQL Queries
-
+=========
 File Name | Description
 --- | ---
 substring_regex.sql | xxx
@@ -213,7 +189,7 @@ query collection and paste it in the workpad of this tool.
 
 
 
-:computer: Support & Disclaimer
+Support & Disclaimer
 ===
 #### Support
 Found a bug?? Here are the options
