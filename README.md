@@ -18,8 +18,7 @@ Knowledge-base
 
 SQL keyword | Usage | Example
 --- | ---- | ----
-```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, (b)
-how many customer are there from each country
+```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, (b) how many customer are there from each country
 ```min``` function | How to find lowest value in a column | find the first order from the product table
 
 
