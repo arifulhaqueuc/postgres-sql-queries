@@ -1,4 +1,4 @@
--- create export command
+
 -- ref: http://www.sql-workbench.net/manual/command-export.html
 
 WbExport -type=text
