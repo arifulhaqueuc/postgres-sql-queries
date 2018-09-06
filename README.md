@@ -2,41 +2,32 @@ About The Repository
 ===========
 Topic | Description
 --- | ---
-Goal | The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database, and there is also a set of queries that we can execute on AWS RedShift Database to monitor current errors and other admin-level  information. 
-
-
-Pre-requisites / Know Before You Go
-==========
-  - Good knowledge of SQL Queries
-  - Basic Knowledge on AWS Redshift
-
+Goal | The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database. 
 
 List of Contents
 ===========
-- Run & Test The Queries
-- Knowledge-base
-- Basic Syntax
-- Query Description
+- Query clause order
+- Create Temp Table
+- Date Syntax
+- Syntax for SQL keyword ```not```
 
 
 
 Knowledge-base
 ==========
 
+SQL keyword | Usage | Example
+--- | ---- | ----
+```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, (b)
+how many customer are there from each country
+```min``` function | How to find lowest value in a column | find the first order from the product table
+
+
 #### Important Concepts in SQL
  - What is the difference in *like* vs *ilike*
  - What is the difference in *union* and *union all*
  - how to extract info from ```datetime```
  
- 
-
-List of Query Contents
-===========
-- Basic Syntax Order
-- Create A Temp Table
-- Create a temp table from a given table
-- Date Syntax
-- SQL keywords
 
 
 #### Basic Syntax
@@ -144,8 +135,11 @@ Examples
  - find the first order from the product table
 
 
-Query Syntax
+Queries in Repo
 =========
+
+The following queries are available within ```sql_queries``` directory
+
 File Name | Description
 --- | ---
 wb_export.sql | sql query to export result in a csv file
@@ -156,10 +150,9 @@ inner_join.sql | basic inner join syntax
 join_three_tables.sql | join three tables together
 join_groupby_orderby.sql | a table with join and group by and order by
 
+The following queries are available within ```sql_query_syntax``` directory
 
 
-SQL Queries
-=========
 File Name | Description
 --- | ---
 substring_regex.sql | xxx
@@ -178,7 +171,8 @@ changing_dates_to_epochs.sql  | xxx
 
 
 
-#### Run & Test The Queries
+Run & Test The Queries
+===========
 We can run and test any query using the following online tool
 ```
 http://rextester.com/l/postgresql_online_compiler
@@ -202,7 +196,8 @@ Found a bug?? Here are the options
 This is my personal repo and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
 
 
-#### References
+References
+=========
 Others
   - https://aws.amazon.com/documentation/redshift/
   - https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_commands.html
