@@ -29,47 +29,6 @@ SQL keyword | Usage | Example Usage | File in repo
  - how to extract info from ```datetime```
  
 
-
-#### Basic Syntax
-
-Query clause order
-```
-SELECT
-FROM
-WHERE
-GROUP BY
-HAVING
-ORDER BY
-
-```
-
-
-
-This keyword is used in the following queries
- - find the products that didnot catch fire
- - find the parcels that didnot lose
- 
-Examples
- - [not_had_fire.sql]() 
-
-
-
-
-```order by```
-<br>
-This keyword is used to rearrange data in a specific order. Such as
- - show employee names in order of their age
- - how many customer are there from each country
-
-
-```min``` function
- - How to find lowest value in a column 
- 
-
-Examples
- - find the first order from the product table
-
-
 Queries in Repo
 =========
 
