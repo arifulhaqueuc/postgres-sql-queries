@@ -16,10 +16,11 @@ List of Contents
 Knowledge-base
 ==========
 
-SQL keyword | Usage | Example
---- | ---- | ----
-```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, (b) how many customer are there from each country
-```min``` function | How to find lowest value in a column | find the first order from the product table
+SQL keyword | Usage | Example Usage | File in repo
+--- | ---- | ---- | ---
+```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, <br/> (b) how many customer are there from each country | Link
+```min``` function | How to find lowest value in a column | find the first order from the product table | Link
+```not in``` | --- | (a) find the products that didnot catch fire <br /> (b) find the parcels that didnot lose | Link
 
 
 #### Important Concepts in SQL
@@ -44,36 +45,9 @@ ORDER BY
 
 
 
-
-#### SQL Keywords
-Let's take a quick look at the common SQL keywords.
-
-```not```
-<br>
 This keyword is used in the following queries
  - find the products that didnot catch fire
  - find the parcels that didnot lose
- 
-General Syntax
-```
-select
- a
- , b
- , c
- 
-from
- table1
-
-where 
- b not in
-  (
-    select 
-     m
-    from 
-     table2
-  )
-
-``` 
  
 Examples
  - [not_had_fire.sql]() 
