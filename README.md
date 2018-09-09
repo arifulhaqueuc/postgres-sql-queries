@@ -43,44 +43,6 @@ ORDER BY
 ```
 
 
-Create a Temp Table
-```
-drop table if exists table_name
-;
-
-
-create temp table table_name
-(
-  id int,
-  name varchar(25),
-  dob Date
-
-)
-;
-
-```
-
-
-Create a temp table from a given table
-```
-create temp table top_ten_salary as
-(
-  select emp_salary
-  from employee_table 
-  order by emp_salary desc
-  limit 10
-)
-;
-
-```
-
-Date Syntax
-```
-start_time::timestamptz AT TIME ZONE 'America/New_York' 
-  BETWEEN '2017-12-25' 
-  AND '2017-12-26'
-
-```
 
 
 #### SQL Keywords
