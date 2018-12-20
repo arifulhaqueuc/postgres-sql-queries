@@ -3,9 +3,7 @@
 
 About The Repository
 ===========
-Topic | Description
---- | ---
-Goal | The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database. 
+The goal of this repository is to help us get familiarized with medium-to-advanced level SQL queries suitable for a Postgres Database. 
 
 List of Contents
 ===========
