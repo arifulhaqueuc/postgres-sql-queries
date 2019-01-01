@@ -14,16 +14,6 @@ List of Contents
 
 
 
-Knowledge-base
-==========
-
-SQL keyword | Usage | Example Usage | File in repo
---- | ---- | ---- | ---
-```order by``` | This keyword is used to rearrange data in a specific order | (a) show employee names in order of their age, <br/> (b) how many customer are there from each country | Link
-```min``` function | How to find lowest value in a column | find the first order from the product table | Link
-```not in``` | --- | (a) find the products that didnot catch fire <br /> (b) find the parcels that didnot lose | Link
-
-
 #### Important Concepts in SQL
  - What is the difference in *like* vs *ilike*
  - What is the difference in *union* and *union all*
@@ -45,23 +35,6 @@ inner_join.sql | basic inner join syntax
 join_three_tables.sql | join three tables together
 join_groupby_orderby.sql | a table with join and group by and order by
 
-The following queries are available within ```sql_query_syntax``` directory
-
-
-File Name | Description
---- | ---
-substring_regex.sql | xxx
-dedup_count.sql | xxx               
-find_max_number.sql | xxx       
-date_syntax.sql | xxx
-find_gradation.sql | xxx
-union.sql | xxx
-ilike_similar.sql | xxx         
-extract_function.sql | xxx
-exists.sql | xxx                   
-create_tables_inser_data.sql  | xxx
-inner_join.sql | xxx           
-changing_dates_to_epochs.sql  | xxx
 
 
 
